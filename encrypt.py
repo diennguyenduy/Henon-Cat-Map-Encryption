@@ -20,7 +20,7 @@ def encrypt(filepath, destination_path, key):
     elapsed_time = time.perf_counter() - start_time
     print(f"Elapsed time: {elapsed_time:0.4f} seconds")
     # Save the output of reshape
-    cv2.imwrite(im_reshaped.filepath, im_reshaped.matrix)
+    # cv2.imwrite(im_reshaped.filepath, im_reshaped.matrix)
     
     # Begin confusion
     start_time = time.perf_counter()

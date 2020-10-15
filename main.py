@@ -1,11 +1,10 @@
 import tkinter as tk
-# import tkinter as tk
 import tkinter.filedialog as fd
-import os
+import threading as thread
 import encrypt as e
 import decrypt as d
-import threading as thread
 import Key as k
+import os
 
 class MainApplication:
     def __init__(self, app, key):
